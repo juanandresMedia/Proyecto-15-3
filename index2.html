@@ -1,4 +1,5 @@
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -6,50 +7,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <form action="" id="propietario">
-        <p>Propietario del vehiculo</p>
-     <div class="container">
-        <input type="text" placeholder="Propietario del vehiculo">
-     </div>
+    <header>
 
-     <form action="" id="Modelo">
-        <p>Modelo del vehiculo</p>
-     <div class="container">
-        <input type="text" placeholder="Modelo del vehiculo">
-    </div>
-     
-    <form action="" id="placa">
-        <p>Placa</p>
-       <div class="container"></div>
-        <input type="text" placeholder="NN-NN-LL" >
-        <div>
+        <nav>
+            <ul class="menu">
 
-            <form action="" id="tipo">
-                <p>tipo vehiculo</p>
-               <div class="container"></div>
-                <input type="text" placeholder="Carro Moto" >
-                <div>
+                <li class="lista"><a href="index.html">inicio</a></li>
+                <li class="lista"><a href="index2.html">information</a></li>
+                <li class="lista"><a href="#">contactenos</a></li>
+            </ul>
 
-                    <form action="" id="fecha">
-                        <p>fecha de entrada</p>
-                       <div class="container"></div>
-                        <input type="date" placeholder="dd/mm/aaaa" >
+        </nav>
+
+    </header>
+
+    <main>
+        <form action="" id="form"></form>
+        <div id="contenedor">
+            <div id="propetario">
+        <label for="">propetario del vehiculo</label>
+        <input type="text" placeholder="propietario">
+            </div>
+            
+        
+            <div id="modelo">
+                <label for="">modelo del vehiculo</label><br>
+                <input type="text" placeholder="Modelo del vehiculo">
+                    </div>
+        
+                     <div id="info">
                         <div>
-
-                            <form action="" id="hora">
-                                <p>hora de inicio</p>
-                               <div class="container"></div>
-                                <input type="time" placeholder="hh:mm" >
+                            <label for="">placa del vehiculo</label><br>
+                            <input type="text" placeholder="NN-NN-LL">
+                                </div>
                                 <div>
-
-                                    <form action="" id="cantidad">
-                                        <p>cantidad de hotas</p>
-                                       <div class="container"></div>
-                                        <input type="text" placeholder="Cantidad" >
+                                    <label for="">tipo del vehiculo</label><br>
+                                    <input type="text" placeholder="carro moto">
+                                        </div>
+                     </div>
+        
+                     <div id="info2">
+                        <div>
+                            <label for="">fecha de inicio</label><br>
+                            <input type="date" placeholder="NN-NN-LL">
+                                </div>
+        
+                                <div>
+                                    <label for="">Hora de inicio</label><br>
+                                    <input type="time" placeholder="NN-NN-LL">
+                                        </div>
+        
                                         <div>
-     
+                                            <label for="">Cantidad de horas</label><br>
+                                            <input type="text" placeholder="Cantidad de horas">
+                                                </div>
+        
+                     </div>
+            
+        </div>
+        <button id="boton" type="submit">Enviar</button>
+           </main>
+    
 
-                                            
+                                                  
+
+                                                    <script src="./script2.js"></script>
+
 </body>
+
 </html>
