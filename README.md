@@ -1,129 +1,88 @@
-# Proyecto-15-3
-# 1. Consulta 30 etiquetas de html.
+# comandosgit
+trabajo de clase con comandos de git
+## actividad consulta.
+### 1. consultar 30 etiquetas de html.
+1. **```<nav></nav>```** Usadas para definir el contenido que será la sección de navegación de la web
+2. **```<section> </section>```** Define una sección del documento
+3. **```<title> </title>```** Etiqueta usada para definir el título de la página.
+4. **```<link>```** Se usa para enlazar recursos externos al documento HTML. El ejemplo más común son las hojas de estilos CSS
+5. **```<!DOCTYPE html>```** Indica al navegador que el documento está basado en el estándar HTML5
+6. **```<html> </html>```** Representa la raíz de un documento HTML. Todos los demás elementos de la estructura HTML deben ser recogidos dentro de estas etiquetas
+7. **```<style> </style>```** Etiquetas usadas para introducir código CSS en línea, es decir, en el propio documento HTML
+8. **```<body> </body>```** Al contrario que la etiqueta de metadatos <head>, todo lo que quieras mostrar en la página web debe ir recogido dentro de las etiquetas de apertura y cierre de <body>. Este contenido será el que se muestre en la web
+9. **```<main> </main>```** Se usa para definir el contenido principal del documento. Solamente puede existir uno por documento
+10. **```<article> </article>```** Define contenido independiente de la web
+11. **```<aside> </aside>```** Dentro de estas etiquetas suele alojarse el contenido adicional de la web. Suele ser contenido relacionado con la web pero de poca importancia
+12. **``` <h1>,<h2>,<h3>,<h4>,<h5>,<h6>```** Son etiquetas HTML muy importantes, ya que son usadas para jerarquizar el contenido de la web. Las etiquetas se usan para explicar brevemente el contenido que irá a continuación
+13. **``` <footer> </footer>```** Usadas para definir el pie de página
+14. **```<header> </header>```** Se usan para definir la cabecera la página web. Suele contener el logotipo, menú de navegación, etc
+15. **```<p> </p>```** Etiqueta usada para escribir párrafos de texto
+16. **```<blockquote> </blockquote>```** Se usan para indicar que el contenido es texto citado
+17. **```<hr>```** Etiqueta utilizada para «romper» entre dos secciones de una web. Usada comúnmente como separador
+18. **```<textarea> </textarea>```** Añade un campo al usuario para que pueda introducir texto en unas líneas máximas de texto que el desarrollador puede definir
+19. **```<label> </label>```** Se usa para definir el nombre o título de un control del formulario
+20. **```<select> </select>```** Input que permite una selección entre un conjunto de opciones
+21. **```<option> </option>```** Etiqueta ligada a <select>. Permite añadir diferentes opciones al <select>
+22. **```<input>```** Pinta un campo de introducción de datos para el usuario. Es de las principales etiquetas de un formulario
+23. **```<img>```** Etiqueta para «pintar» una imagen en la página web
+24. **```<iframe> </iframe>```** Es una etiqueta que sirve para anidar otro documento HTML dentro del documento principal
+25. **```<video> </video>```** Se usa para reproducir video en la página web junto a sus archivos de audio y capciones asociadas
+26. **```<audio> </audio>```** Usada para cargar en una web un archivo de audio o stream de audio
+27. **```<object> </object>```**Utilizada llamar a un recurso externo de la web. Este recurso será tratado como una imagen, o un recurso externo para ser procesado por un plugin
+28. **```<div> </div>```** Etiqueta común utilizada para crear un contenedor genérico
+29. **```<figure> </figure>```** Indica una figura ilustrada como parte del documento HTML5
+30. **```<a> </a>```** Etiqueta utilizada para crear hiperenlaces en el documento HTML
 
-## R/ 
-- etiqueta 1
-``` html <p></p> ``` etiquetas para escribir parrafos
-- etiqueta 2
-```html <head></head> ```la cabeza del proyecto o pagina
-- etiqueta 3
-```html <body></body>```el cuerpo del proyecto o pagina
-- etiqueta 4
-```html <div></div>```caja dentro del proyecto par ciertos elementos
-- etiqueta 5
-```html <ul></ul> ```lista desordenada
-- etiqueta 6
-```html <li></li>```lista ordenada
-- etiqueta 7
-```html <a href=""></a>```para crear un vinculo externo a la pagina
-- etiqueta 8
-```html <textarea name="" id="" cols="30" rows="10"></textarea> ```caja de texto para mucha informacion o mensaje
-- etiqueta 9
-```html <button></button>```boton interactivo en las paginas
-- etiqueta 10
-```html <form action=""></form> ```es para crear un formulario
-- etiqueta 11
-```html <title></title>```titulo en la cabezera de pagina
-- etiqueta 12
-```html <link rel="stylesheet" href="">```para vincular recursos externos al html
-- etiqueta 13
-```html <input> ``` Pinta un campo de introducción de datos para el usuario. Es de las principales etiquetas de un formulario.
-- etiqueta 14
-```html  <select> </select> ``` Input que permite una selección entre un conjunto de opciones. 
-- etiqueta 15
-```html <ol> </ol> ```  Etiquetas para crear una lista ordenada 
-- etiqueta 16
-```html <tr> </tr> ``` Se usa para indicar una fila de celdas de una tabla. 
-- etiqueta 17
-```html <td> </td> ``` Usada para definir una celda de una tabla. 
-- etiqueta 18
-```html ```
-- etiqueta 19
-```html ```
-- etiqueta 20
-```html ```
-- etiqueta 21
-```html ```
-- etiqueta 22
-```html ```
-- etiqueta 23
-```html ```
-- etiqueta 24
-```html ```
-- etiqueta 25
-```html ```
-- etiqueta 26
-```html ```
-- etiqueta 27
-```html ```
-- etiqueta 28
-```html ```
-- etiqueta 29
-```html ```
-- etiqueta 30
-```html ```
 
-# 2. consulta 30 estilos de css
-## R/
+### 2. consulta 30 estilos de css
+1. **```*```** El asterisco se centrará en cada uno de los elementos en la página.
+2. **```#X```** Prefijar el símbolo numérico a un selector nos permite seleccionar por id.
+3. **```.X```** Éste es un selector de clase class La diferencia entre ids y class es que, con el último, puedes seleccionar varios elementos.
+4. **```X Y```** El siguiente selector más común es el selector descendiente.
+5. **```X```** ¿Qué pasa si quieres seleccionar todos los elementos en una página, de acuerdo a su tipo ( type), en vez de un nombre de id o clase. Mantenlo simple, y usa un selector de tipo.
+6. **```X:visited and X:link```** Usamos la pseudo clase :link para seleccionar todas las etiquetas anchor a las que aún no se les ha dado click.
+7. **``` X + Y```** Este se conoce como un selector adyacente. Seleccionará solamente el elemento que es inmediatamente precedido por el primer elemento.
+8. **```X > Y```** La diferencia entre el estándar X Y y X > Y es que el último sólo seleccionará hijos directos.
+9. **```X ~ Y```** Este elemento “hermano” es similar a X + Y, sin embargo, es menos estricto.
+10. **```X[title]```** Denominado como un selector de atributos, en nuestro ejemplo de arriba, esto sólo seleccionará las etiquetas anchor que tengan un atributo title.
+11. **```X[href="foo"]```** El fragmento de arriba dará estilo a todas las etiquetas anchor que enlacen a http://net.tutsplus.com; estas recibirán nuestro característico color verde. Las demás etiquetas anchor permanecerán sin cambio.
+12. **```X[href*="nettuts"]```** El asterisco designa que el valor a continuación debe aparecer en algún lugar del valor del atributo. De esa manera, esto cubre nettuts.com, net.tutsplus.com, e incluso tutsplus.com.
+13. **```X[href^="http"]```** Si queremos afectar todas las etiquetas anchor que tienen un href que comienza con http, podríamos usar un selector similar al fragmento.
+14. **```X[href$=".jpg"]```** En éste caso, estamos buscando todos los anchor que enlacen a una imagen – o por lo menos a una url que termine con .jpg. Ten en mente que esto seguramente no funcionará para gifs ni pngs.
+15. **```X[data-*="foo"]```** podemos usar un selector de atributos estándar para afectar sólo a esos anchors.
+16. **```X[foo~="bar"]```** El símbolo tilde (~) nos permite afectar un atributo que tenga una lista de valores separados por espacios.
+17. **```X:checked```** Ésta pseudo clase sólo afectará a un elemento de interfaz de usuario que haya sido seleccionado - como un botón de opción (radio button) o casilla de selección (checkbox).
+18. **```X:after```** Éstas simplemente generan contenido alrededor del elemento seleccionado.
+19. **```X:hover```** Usarás más seguido éste selector cuando apliques, por ejemplo, un border-bottom a etiquetas anchor, cuando se pase por encima.
+20. **```X:not(selector)```** La pseudo clase negación es particularmente útil. Digamos que quiero seleccionar todos los divs, excepto por los que tienen un id de container. El fragmento de arriba manejará la tarea perfectamente.
+21. **```X::pseudoElement```** Podemos usar pseudo elementos (designados por ::) para estilizar fragmentos de un elemento, como la primera línea, o la primera letra.
+22. **```X:nth-child(n)```** Podemos incluso usar esto para seleccionar un conjunto variable de hijos. Por ejemplo, podríamos usar li:nth-child(4n) para seleccionar todos los cuartos elementos de una lista.
+23. **```X:nth-last-child(n)```** ¿Y si tuvieras una inmensa lista de elementos en un ul, y solo necesitaras accesar, digamos, del tercer al último elemento? En vez de usar li:nth-child(397), en su lugar podrías usar la pseudo clase nth-last-child.
+24. **```X:nth-of-type(n)```** Si quisieras estilizar sólo la tercera ul, y no tuvieras un id único al cual engancharla, podrías usar la pseudo clase nth-of-type(n).
+25. **```X:nth-last-of-type(n)```** También podemos usar nth-last-of-type para comenzar al final de la lista del selector y partir hacia atrás para afectar al elemento deseado.
+26. **```X:first-child```** Esta pseudo clase estructural nos permite afectar sólo al primer hijo del padre del elemento. Usarás esto frecuentemente para remover bordes de los primeros y últimos elementos de una lista.
+27. **```X:last-child```** Al contrario de first-child, last-child afectará el último elemento del padre el elemento.
+28. **```X:only-child```** Te permite afectar elementos que sean los únicos hijos de su padre.
+29. **```X:only-of-type```** Esta pseudo clase estructural puede ser usada en maneras inteligentes. Afectará elementos que no tienen hermanos dentro de su contenedor padre. Como ejemplo, afectemos a todos los uls, que tengan sólo un elemento de lista.
+30. **```X:first-of-type```** La pseudo clase first-of-type te permite seleccionar los primeros hermanos de su tipo.
 
-- etiqueta 1
-``` ```
-- etiqueta 2
-``` ```
-- etiqueta 3
-``````
-- etiqueta 4
-``````
-- etiqueta 5
-``` ```
-- etiqueta 6
-``````
-- etiqueta 7
-``````
-- etiqueta 8
-``` ```
-- etiqueta 9
-``````
-- etiqueta 10
-``````
-- etiqueta 11
-``````
-- etiqueta 12
-``````
-- etiqueta 13
-``` ```
-- etiqueta 14
-``` ```
-- etiqueta 15
-``` ```
-- etiqueta 16
-``` ```
-- etiqueta 17
-``` ```
-- etiqueta 18
-``` ```
-- etiqueta 19
-``` ```
-- etiqueta 20
-``` ```
-- etiqueta 21
-``` ```
-- etiqueta 22
-``` ```
-- etiqueta 23
-``` ```
-- etiqueta 24
-``` ```
-- etiqueta 25
-``` ```
-- etiqueta 26
-``` ```
-- etiqueta 27
-``` ```
-- etiqueta 28
-``` ```
-- etiqueta 29
-``` ```
-- etiqueta 30
 
-# 3. consultar
+## 3. consultar que es display block,inline e inline-block
+### -display block
+elemento que ocupa el ancho maximo disponible.de manera predeterminada,el contenido de un elenmento de nivel de bloques es el 100% del ancho de su elemento padre y la altura es determinada por su contenido
+
+### -display inline
+cuando el elemento inline se encuentra entre dos elementos block,el elemento inline se comporta como un block anonimo,de minima anchura
+
+## -display inline-block
+es na conbinacion entre los dos elementos mencionados anteriormente,los elementos con el valor inline-block admiten dimensiones pero todavia son elementos en linea,es decir estaran colocados uno al lado del otro
+
+## 4. mostrar en la consulta anterior de las etiquetas cuales son etiquetas block,inline e inline block
+## -Block
+Las etiquetas de bloque permiten definir bloques de contenido coherente, formado por texto e imágenes. Visualmente, cada bloque se muestra separado del resto de bloques.
+
+## -Inline
+los elementos inline son aquellos cuyo contenido se encuentra en una misma linea, de tal manera que que si colocamos dos o más elementos en linea sin expresar un salto de linea, estos elementos se presentarán uno seguido de otro en una misma linea.
+
+## -Inline block
+Los elementos inline-block fluyen con el texto y demás elementos como si fueran elementos en-línea y además respetan el ancho, el alto y los márgenes verticales
